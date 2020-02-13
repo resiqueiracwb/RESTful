@@ -1,11 +1,11 @@
-package com.restfulldemo.model;
+package com.restful.model;
 
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.restfulldemo.enumeration.TransactionTypeEnum;
+import com.restful.enumeration.TransactionTypeEnum;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

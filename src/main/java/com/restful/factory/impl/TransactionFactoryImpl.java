@@ -1,8 +1,8 @@
-package com.restfulldemo.factory.impl;
+package com.restful.factory.impl;
 
-import com.restfulldemo.enumeration.TransactionTypeEnum;
-import com.restfulldemo.factory.TransactionFactory;
-import com.restfulldemo.model.Transaction;
+import com.restful.enumeration.TransactionTypeEnum;
+import com.restful.factory.TransactionFactory;
+import com.restful.model.Transaction;
 
 public class TransactionFactoryImpl implements TransactionFactory {
 

@@ -1,4 +1,4 @@
-package com.restfulldemo.model;
+package com.restful.model;
 
 import java.util.Arrays;
 import java.util.List;

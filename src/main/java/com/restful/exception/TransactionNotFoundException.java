@@ -1,6 +1,6 @@
-package com.restfulldemo.exception;
+package com.restful.exception;
 
-import com.restfulldemo.model.APIError;
+import com.restful.model.APIError;
 
 public class TransactionNotFoundException extends Exception {
 

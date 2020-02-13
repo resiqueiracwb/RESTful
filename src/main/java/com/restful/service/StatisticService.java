@@ -1,4 +1,4 @@
-package com.restfulldemo.service;
+package com.restful.service;
 
 import java.math.BigDecimal;
 import java.math.RoundingMode;
@@ -6,8 +6,8 @@ import java.util.List;
 
 import org.springframework.stereotype.Service;
 
-import com.restfulldemo.model.Statistic;
-import com.restfulldemo.model.Transaction;
+import com.restful.model.Statistic;
+import com.restful.model.Transaction;
 
 @Service
 public class StatisticService {

@@ -16,10 +16,10 @@ import org.springframework.boot.context.properties.EnableConfigurationProperties
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
-import com.restfulldemo.model.Statistic;
-import com.restfulldemo.model.Transaction;
-import com.restfulldemo.service.StatisticService;
-import com.restfulldemo.service.TransactionService;
+import com.restful.model.Statistic;
+import com.restful.model.Transaction;
+import com.restful.service.StatisticService;
+import com.restful.service.TransactionService;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest(classes = { TransactionService.class, StatisticService.class })

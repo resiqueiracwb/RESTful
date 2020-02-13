@@ -1,4 +1,4 @@
-package com.restfulldemo.enumeration;
+package com.restful.enumeration;
 
 public enum TransactionTypeEnum {
 	CARD("CARD"), MONEY("MONEY");

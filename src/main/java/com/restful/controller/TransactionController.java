@@ -1,4 +1,4 @@
-package com.restfulldemo.controller;
+package com.restful.controller;
 
 import java.util.List;
 
@@ -16,11 +16,11 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
-import com.restfulldemo.exception.InvalidJSONException;
-import com.restfulldemo.exception.NotParsableContentException;
-import com.restfulldemo.exception.TransactionNotFoundException;
-import com.restfulldemo.model.Transaction;
-import com.restfulldemo.service.TransactionService;
+import com.restful.exception.InvalidJSONException;
+import com.restful.exception.NotParsableContentException;
+import com.restful.exception.TransactionNotFoundException;
+import com.restful.model.Transaction;
+import com.restful.service.TransactionService;
 
 @RestController
 @RequestMapping(path = "/financial/v1")

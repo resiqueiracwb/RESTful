@@ -1,4 +1,4 @@
-package com.restfulldemo.exception;
+package com.restful.exception;
 
 import java.util.Collections;
 import java.util.List;
@@ -11,8 +11,8 @@ import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.context.request.WebRequest;
 import org.springframework.web.util.WebUtils;
 
-import com.restfulldemo.controller.TransactionController;
-import com.restfulldemo.model.APIError;
+import com.restful.controller.TransactionController;
+import com.restful.model.APIError;
 
 @ControllerAdvice(assignableTypes = TransactionController.class)
 public class ControllersExceptionHandler {

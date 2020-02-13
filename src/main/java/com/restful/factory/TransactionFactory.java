@@ -1,6 +1,6 @@
-package com.restfulldemo.factory;
+package com.restful.factory;
 
-import com.restfulldemo.model.Transaction;
+import com.restful.model.Transaction;
 
 public interface TransactionFactory {
 

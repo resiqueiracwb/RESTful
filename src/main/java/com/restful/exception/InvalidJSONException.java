@@ -1,4 +1,4 @@
-package com.restfulldemo.exception;
+package com.restful.exception;
 
 public class InvalidJSONException extends Exception {
 
